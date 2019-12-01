@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/hans/CLionProjects/Praktikum3/main.cpp
+iostream
+-
+vehicle.h
+C:/Users/hans/CLionProjects/Praktikum3/vehicle.h
+
+C:/Users/hans/CLionProjects/Praktikum3/vehicle.h
+
