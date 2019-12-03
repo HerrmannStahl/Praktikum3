@@ -5,6 +5,7 @@
  *      Default Parameter in Konstruktor
  *  LS 03/12/2019: getVehicleString geschrieben
  *      #includes aufgeräumt
+ *      simulate, roll, etc zu complex umgebaut
  */
 
 #ifndef PRAKTIKUM3_VEHICLE_H
@@ -18,23 +19,26 @@ using namespace std;
 
 class Vehicle {
 public:
-    explicit Vehicle(double v = 0, double a= 0, double s = 0, double mass = 1000, double dt = 1, double fMax = 1000
-            , double fAkt = 0); //Konstruktor
+    explicit Vehicle(complex<double> v = 0, complex<double> a= 0, complex<double> s = 0, complex<double> fAkt = 0
+            , double mass = 1000, double dt = 1, double fMax = 1000); //Konstruktor
 
     void printVehicle();
-    string getVehicleString();
+    //string getVehicleString();
     void simulate();
     void roll();
     void accel();
     void decel();
+    void up();
+    void down();
 
     // Alle Getter
     double getXPos();
     double getYPos();
-    double getSpeed();
-    double getAccel();
+    complex<double> getComplexPos();
+    complex<double> getSpeed();
+    complex<double> getAccel();
     double getMaxForce();
-    double getAktForce();
+    complex<double> getAktForce();
     double getMass();
     double getTime();
 
@@ -48,8 +52,8 @@ public:
     void setTime(double timeToSet);
 
 private:
-    double v, a, s, dt, mass;
-    double F_max, F_akt;
+    complex<double> v, a, s, F_akt;
+    double F_max,dt, mass;
 };
 
 #endif //PRAKTIKUM3_VEHICLE_H
