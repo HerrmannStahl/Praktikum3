@@ -3,23 +3,34 @@
  *      Klasse, Konstruktor, Getter, Setter, print deklariert
  *      simulate deklariert
  *      Default Parameter in Konstruktor
+ *  LS 03/12/2019: getVehicleString geschrieben
+ *      #includes aufgeräumt
  */
 
 #ifndef PRAKTIKUM3_VEHICLE_H
 #define PRAKTIKUM3_VEHICLE_H
 
+#include <iostream>
+#include <string>
+#include <complex>
+
+using namespace std;
+
 class Vehicle {
 public:
-    explicit Vehicle(double v = 0, double a= 0, double s = 0, double mass = 1000, double dt = 1, double fMax = 1000, double fAkt = 0); //Konstruktor
+    explicit Vehicle(double v = 0, double a= 0, double s = 0, double mass = 1000, double dt = 1, double fMax = 1000
+            , double fAkt = 0); //Konstruktor
 
     void printVehicle();
+    string getVehicleString();
     void simulate();
     void roll();
     void accel();
     void decel();
 
     // Alle Getter
-    double getPos();
+    double getXPos();
+    double getYPos();
     double getSpeed();
     double getAccel();
     double getMaxForce();

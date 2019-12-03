@@ -6,11 +6,19 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/hans/CLionProjects/Praktikum3/main.cpp
+E:/CLionProjects/Praktikum3/main.cpp
+vehicle.h
+E:/CLionProjects/Praktikum3/vehicle.h
+
+E:/CLionProjects/Praktikum3/vehicle.cpp
+vehicle.h
+E:/CLionProjects/Praktikum3/vehicle.h
+
+E:/CLionProjects/Praktikum3/vehicle.h
 iostream
 -
-vehicle.h
-C:/Users/hans/CLionProjects/Praktikum3/vehicle.h
-
-C:/Users/hans/CLionProjects/Praktikum3/vehicle.h
+string
+-
+complex
+-
 

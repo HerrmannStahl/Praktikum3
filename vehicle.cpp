@@ -2,10 +2,9 @@
  *  Created by Lucas Stadtfeld on 01/12/2019.
  *      Getter, Setter, print definiert
  *      Simulate definiert
+ *  LS 03/12/2019: getVehicleString geschrieben
+ *      #includes aufgeräumt
 */
-
-#include <iostream>
-#include <string>
 
 #include "vehicle.h"
 
@@ -27,6 +26,11 @@ void Vehicle::printVehicle() {
     cout << "___________________Ende_______________________________" << endl;
 }
 
+string Vehicle::getVehicleString() {
+    return "a: " + to_string(this->a) + ", v: " + to_string(this->v) + ", s: "
+           + to_string(this->s) + ", F_akt: " + to_string(this->F_akt);
+}
+
 void Vehicle::simulate() {
     this->a = (double) this->F_akt / (double) this->mass;
     //cout << "a  " << this->a << endl;
@@ -45,7 +49,10 @@ void Vehicle::decel() {
 }
 
 //Definitionen Getter
-double Vehicle::getPos() {
+double Vehicle::getXPos() {
+    return this->s;
+}
+double Vehicle::getYPos() {
     return this->s;
 }
 double Vehicle::getSpeed() {

@@ -33,19 +33,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2018.3\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2019.2.1\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2018.3\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "C:\Program Files\JetBrains\CLion 2019.2.1\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\hans\CLionProjects\Praktikum3
+CMAKE_SOURCE_DIR = E:\CLionProjects\Praktikum3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\hans\CLionProjects\Praktikum3\cmake-build-debug
+CMAKE_BINARY_DIR = E:\CLionProjects\Praktikum3\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Praktikum3.dir/depend.make
@@ -58,29 +58,29 @@ include CMakeFiles/Praktikum3.dir/flags.make
 
 CMakeFiles/Praktikum3.dir/main.cpp.obj: CMakeFiles/Praktikum3.dir/flags.make
 CMakeFiles/Praktikum3.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\hans\CLionProjects\Praktikum3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Praktikum3.dir/main.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Praktikum3.dir\main.cpp.obj -c C:\Users\hans\CLionProjects\Praktikum3\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\CLionProjects\Praktikum3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Praktikum3.dir/main.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Praktikum3.dir\main.cpp.obj -c E:\CLionProjects\Praktikum3\main.cpp
 
 CMakeFiles/Praktikum3.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Praktikum3.dir/main.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\hans\CLionProjects\Praktikum3\main.cpp > CMakeFiles\Praktikum3.dir\main.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\CLionProjects\Praktikum3\main.cpp > CMakeFiles\Praktikum3.dir\main.cpp.i
 
 CMakeFiles/Praktikum3.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Praktikum3.dir/main.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\hans\CLionProjects\Praktikum3\main.cpp -o CMakeFiles\Praktikum3.dir\main.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\CLionProjects\Praktikum3\main.cpp -o CMakeFiles\Praktikum3.dir\main.cpp.s
 
 CMakeFiles/Praktikum3.dir/vehicle.cpp.obj: CMakeFiles/Praktikum3.dir/flags.make
 CMakeFiles/Praktikum3.dir/vehicle.cpp.obj: ../vehicle.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\hans\CLionProjects\Praktikum3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Praktikum3.dir/vehicle.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Praktikum3.dir\vehicle.cpp.obj -c C:\Users\hans\CLionProjects\Praktikum3\vehicle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\CLionProjects\Praktikum3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Praktikum3.dir/vehicle.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Praktikum3.dir\vehicle.cpp.obj -c E:\CLionProjects\Praktikum3\vehicle.cpp
 
 CMakeFiles/Praktikum3.dir/vehicle.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Praktikum3.dir/vehicle.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\hans\CLionProjects\Praktikum3\vehicle.cpp > CMakeFiles\Praktikum3.dir\vehicle.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\CLionProjects\Praktikum3\vehicle.cpp > CMakeFiles\Praktikum3.dir\vehicle.cpp.i
 
 CMakeFiles/Praktikum3.dir/vehicle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Praktikum3.dir/vehicle.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\hans\CLionProjects\Praktikum3\vehicle.cpp -o CMakeFiles\Praktikum3.dir\vehicle.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\CLionProjects\Praktikum3\vehicle.cpp -o CMakeFiles\Praktikum3.dir\vehicle.cpp.s
 
 # Object files for target Praktikum3
 Praktikum3_OBJECTS = \
@@ -96,7 +96,7 @@ Praktikum3.exe: CMakeFiles/Praktikum3.dir/build.make
 Praktikum3.exe: CMakeFiles/Praktikum3.dir/linklibs.rsp
 Praktikum3.exe: CMakeFiles/Praktikum3.dir/objects1.rsp
 Praktikum3.exe: CMakeFiles/Praktikum3.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\hans\CLionProjects\Praktikum3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Praktikum3.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\CLionProjects\Praktikum3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Praktikum3.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Praktikum3.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -109,6 +109,6 @@ CMakeFiles/Praktikum3.dir/clean:
 .PHONY : CMakeFiles/Praktikum3.dir/clean
 
 CMakeFiles/Praktikum3.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\hans\CLionProjects\Praktikum3 C:\Users\hans\CLionProjects\Praktikum3 C:\Users\hans\CLionProjects\Praktikum3\cmake-build-debug C:\Users\hans\CLionProjects\Praktikum3\cmake-build-debug C:\Users\hans\CLionProjects\Praktikum3\cmake-build-debug\CMakeFiles\Praktikum3.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" E:\CLionProjects\Praktikum3 E:\CLionProjects\Praktikum3 E:\CLionProjects\Praktikum3\cmake-build-debug E:\CLionProjects\Praktikum3\cmake-build-debug E:\CLionProjects\Praktikum3\cmake-build-debug\CMakeFiles\Praktikum3.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Praktikum3.dir/depend
 
